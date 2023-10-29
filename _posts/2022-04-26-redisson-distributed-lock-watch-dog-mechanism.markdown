@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Custom DDNS service based on Spring Boot"
+title:  "Redisson distributed lock watch dog mechanism"
 date:   2022-04-26 12:05:48 +0800
 #categories: jekyll update
 ---
