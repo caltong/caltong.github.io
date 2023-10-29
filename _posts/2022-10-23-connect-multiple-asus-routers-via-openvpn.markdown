@@ -12,7 +12,7 @@ This guide is to discuss how to connect multiple Asus routers via OpenVPN. In ge
 
 First, let's say we have 3 routers named router0, router1 and router2. And each of them has a different ISP connected. Networking settings show in the image below. Remember those network settings are made up for convenience. Put your setting into the router's dashboard.
 
-![network-topology](2022-10-23-connect-multiple-asus-routers-via-openvpn/network-topology.drawio.png)
+![network-topology](./2022-10-23-connect-multiple-asus-routers-via-openvpn/network-topology.drawio.png)
 
 - Router0's public IP is 1.0.0.0, the gateway is 192.168.0.1 and the subnet is 192.168.0.1/24.
 - Router1's public IP is 1.0.0.1, the gateway is 192.168.1.1 and the subnet is 192.168.1.1/24.
@@ -34,7 +34,7 @@ As I said before, we're using Asus's official firmware. We're going to use DDNS 
 
 Find **WAN** under advanced settings, and choose **DDNS** tab. By default, the **Server** choice is `WWW.ASUS.COM`. If not, select it. Enter the domain you want into the **Host Name** box then click **Register**. In this screenshot, I have registered, so it shows **Deregister** button. If the domain name you want is already registered, then it will indicate a failure. You can only choose an alternative domain name that is not registered. [http://iplookup.asus.com/nslookup.php](http://iplookup.asus.com/nslookup.php) is a quick way to test if your domain is taken.
 
-![asus-ddns-setting](2022-10-23-connect-multiple-asus-routers-via-openvpn/asus-ddns-setting.png)
+![asus-ddns-setting](./2022-10-23-connect-multiple-asus-routers-via-openvpn/asus-ddns-setting.png)
 
 If everything goes well, a domain has been created and pointed to your router's public IP. Let's say the domain is `example.asuscomm.com`.
 
@@ -44,7 +44,7 @@ Find **VPN** under advanced settings. And choose **VPN Server** and **OpenVPN**.
 
 The only thing that needs to do here is to set the server port to whatever you like. Let's say set **10000** as the server port for example.
 
-![asus-openvpn-server-basic-config-port](2022-10-23-connect-multiple-asus-routers-via-openvpn/asus-openvpn-server-basic-config-port.png)
+![asus-openvpn-server-basic-config-port](./2022-10-23-connect-multiple-asus-routers-via-openvpn/asus-openvpn-server-basic-config-port.png)
 
 Then scroll down and add the client's username and password. In this guide, we have other 2 routers as clients. So add 2 accounts here.
 
@@ -53,7 +53,7 @@ Then scroll down and add the client's username and password. In this guide, we h
 
 Don't forget to click the **Apply** button, if not the config won't be activated.
 
-![asus-openvpn-add-client](2022-10-23-connect-multiple-asus-routers-via-openvpn/asus-openvpn-add-client.png)
+![asus-openvpn-add-client](./2022-10-23-connect-multiple-asus-routers-via-openvpn/asus-openvpn-add-client.png)
 
 Then go do **VPN Details** and change **General** to **Advanced Setings**, you will find more settings.
 
@@ -67,7 +67,7 @@ There are 4 things to do:
     - username: router2, subnet: 192.168.2.1, mask: 255.255.255.0
 
 
-![asus-openvpn-advanced-settings](2022-10-23-connect-multiple-asus-routers-via-openvpn/asus-openvpn-advanced-settings.png)
+![asus-openvpn-advanced-settings](./2022-10-23-connect-multiple-asus-routers-via-openvpn/asus-openvpn-advanced-settings.png)
 
 Then you need to export client's config. Change **VPN Details** from **Advanced Settings** to **General**. And click **export** of **Export OpenVPN configuration file**. You will get a config file named `client.ovpn` by default. Then open this file and look at the first line. By default it will look like this:
 ```
