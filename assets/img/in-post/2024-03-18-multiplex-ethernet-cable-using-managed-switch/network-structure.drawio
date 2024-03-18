@@ -1,0 +1,89 @@
+<mxfile host="app.diagrams.net" modified="2024-03-18T08:39:48.816Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="Bzd9Hv2SrWAPUV1E4PUD" version="24.0.7" type="device">
+  <diagram name="第 1 页" id="w1oZ9BMubHOUa2fa94R4">
+    <mxGraphModel dx="1026" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dmu4hPKxcTvXMOfUq8pe-27" value="ROOM2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="391" y="40" width="219" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="dmu4hPKxcTvXMOfUq8pe-26" value="ROOM1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="110" y="40" width="220" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="dmu4hPKxcTvXMOfUq8pe-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dmu4hPKxcTvXMOfUq8pe-1" target="dmu4hPKxcTvXMOfUq8pe-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dmu4hPKxcTvXMOfUq8pe-28" value="VLAN1&lt;div&gt;WAN&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dmu4hPKxcTvXMOfUq8pe-12">
+          <mxGeometry x="-0.1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dmu4hPKxcTvXMOfUq8pe-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.386;exitY=0.992;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="dmu4hPKxcTvXMOfUq8pe-32" target="dmu4hPKxcTvXMOfUq8pe-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dmu4hPKxcTvXMOfUq8pe-29" value="VLAN3&lt;div&gt;IPTV&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dmu4hPKxcTvXMOfUq8pe-13">
+          <mxGeometry x="0.0667" relative="1" as="geometry">
+            <mxPoint y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dmu4hPKxcTvXMOfUq8pe-1" value="MODEM" style="image;html=1;image=img/lib/clip_art/networking/Modem_128x128.png;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="130" y="60" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dmu4hPKxcTvXMOfUq8pe-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="dmu4hPKxcTvXMOfUq8pe-2" target="dmu4hPKxcTvXMOfUq8pe-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dmu4hPKxcTvXMOfUq8pe-6" value="&lt;div&gt;VLAN&lt;/div&gt;TRUNCK" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dmu4hPKxcTvXMOfUq8pe-5">
+          <mxGeometry x="0.1273" relative="1" as="geometry">
+            <mxPoint x="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dmu4hPKxcTvXMOfUq8pe-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="dmu4hPKxcTvXMOfUq8pe-2" target="dmu4hPKxcTvXMOfUq8pe-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dmu4hPKxcTvXMOfUq8pe-2" value="" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="224" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dmu4hPKxcTvXMOfUq8pe-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dmu4hPKxcTvXMOfUq8pe-3" target="dmu4hPKxcTvXMOfUq8pe-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dmu4hPKxcTvXMOfUq8pe-30" value="VLAN2&lt;div&gt;LAN&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dmu4hPKxcTvXMOfUq8pe-15">
+          <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dmu4hPKxcTvXMOfUq8pe-3" value="ROUTER" style="image;html=1;image=img/lib/clip_art/networking/Wireless_Router_128x128.png;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="414" y="60" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dmu4hPKxcTvXMOfUq8pe-14" value="VLAN1&lt;div&gt;WAN&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="dmu4hPKxcTvXMOfUq8pe-4" target="dmu4hPKxcTvXMOfUq8pe-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dmu4hPKxcTvXMOfUq8pe-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="dmu4hPKxcTvXMOfUq8pe-4" target="dmu4hPKxcTvXMOfUq8pe-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dmu4hPKxcTvXMOfUq8pe-33" value="VLAN3&lt;div&gt;IPTV&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dmu4hPKxcTvXMOfUq8pe-21">
+          <mxGeometry x="-0.0667" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dmu4hPKxcTvXMOfUq8pe-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="dmu4hPKxcTvXMOfUq8pe-4" target="dmu4hPKxcTvXMOfUq8pe-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dmu4hPKxcTvXMOfUq8pe-4" value="" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="414" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dmu4hPKxcTvXMOfUq8pe-20" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/IP_TV.svg;" vertex="1" parent="1">
+          <mxGeometry x="554" y="214.8" width="49.199999999999996" height="50.4" as="geometry" />
+        </mxCell>
+        <mxCell id="dmu4hPKxcTvXMOfUq8pe-22" value="" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="224" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dmu4hPKxcTvXMOfUq8pe-24" value="" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="414" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dmu4hPKxcTvXMOfUq8pe-32" value="IPTV" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/IP_TV.svg;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="250" y="74.8" width="49.199999999999996" height="50.4" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
